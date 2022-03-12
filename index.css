@@ -1,0 +1,27 @@
+.card {
+  width: 10rem;
+  opacity: 0.5;
+  transition: .3s;
+}
+
+.card:hover {
+    opacity: 1;
+    border: 2px solid rgb(180, 180, 180);
+}
+
+.visible {
+  opacity: 1;
+}
+
+.card-title {
+  height: 1rem;
+}
+
+.btn-size {
+  font-size: 10px;
+} 
+
+.btn-show-friend:hover {
+  cursor: pointer;
+}
+
